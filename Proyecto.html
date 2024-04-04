@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso Caroline Sada</title>
+  <!-- Enlace a Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #6e1467;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .course-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+  </style>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Caroline Sada</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner principal -->
+  <header class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4">Curso de finanzas para tu emprendimiento</h1>
+      <p class="lead">Dare consejos y enseña de conceptos de finanzas a emprendedores;</p>
+      
+       <img class="course-image" src="finanzas.svg" alt="Curso de Finanzas">
+      <a href="#" class="btn btn-primary btn-lg">¡Regístrate ahora!</a>
+    </div>
+  </header>
+
+  <!-- Contenido destacado -->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image1.svg" class="card-img-top" alt="image1">
+          <div class="card-body">
+            <h5 class="card-title">Certificado Oficial</h5>
+            <p class="card-text">Puedes realizar la consulta y validación del certificado electrónico de educación básica a través del FOLIO SEP localizado bajo el código de barras en la parte inferior izquierda del documento.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image2.svg" class="card-img-top" alt="image2">
+          <div class="card-body">
+            <h5 class="card-title">Valor Agregado</h5>
+            <p class="card-text">Además de ofrecer precios accesibles y opciones de financiamiento flexibles, nuestro curso proporciona un valor excepcional. Con un plan de estudios diseñado por expertos, materiales de aprendizaje de primera calidad y la orientación de instructores altamente capacitados, te garantizamos una experiencia educativa enriquecedora y gratificante que te preparará para alcanzar tus objetivos profesionales y personales.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image3.svg" class="card-img-top" alt="image3">
+          <div class="card-body">
+            <h5 class="card-title">Precios Competitivos</h5>
+            <p class="card-text">Entendemos la importancia de ofrecer una educación de calidad a un precio justo. Nuestro curso ha sido diseñado con este principio en mente. Ofrecemos tarifas competitivas que se ajustan a tu presupuesto, sin comprometer la calidad del contenido ni el valor que recibirás.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje aquí"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Enlaces a scripts de Bootstrap y jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
